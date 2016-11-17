@@ -4,7 +4,6 @@ this is how to get the new Connected App template up and running in Visual Studi
 
 How to run this solution in the iOS simulator, from scratch:
 ------------------------------------------------------------
-
 1. Install .NET Core 1.1
   * follow ALL the steps [here] (https://www.microsoft.com/net/core#macos)
 2. Install .NET Core 1.0 also (that's what the template uses)
@@ -12,9 +11,9 @@ How to run this solution in the iOS simulator, from scratch:
 3. Pick the "Multiple" run configuration (instead of TestConnnectedApp.iOS for example) and Run!
 
 
+
 What I did to make this solution:
 ------------------------------------------------------------
-
 1. Create new solution from the Connected App template in VS for Mac
   * New Project > Multiplatform > App > Connected App
 2. Create a new Solution Run Configuration 
@@ -22,3 +21,10 @@ What I did to make this solution:
   * Solution > Options > Run > Configurations > New
   * Name it "Multiple" and check the boxes next to the mobile head project + MobileAppService project 
   
+
+
+Is there really service running locally?
+------------------------------------------------------------
+yep. pop this into terminal, and you'll get a json response
+
+curl http://localhost:5000/api/item
