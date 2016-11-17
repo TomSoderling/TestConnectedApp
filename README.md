@@ -23,7 +23,7 @@ What I did to make this solution:
   
 
 
-Is there really service running locally?
+Is there really a service running locally?
 ------------------------------------------------------------
 yep. pop this into terminal, and you'll get a json response
 
