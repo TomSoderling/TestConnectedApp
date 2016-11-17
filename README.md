@@ -3,6 +3,7 @@ this is how to get the new Connected App template up and running in Visual Studi
 
 
 How to run this solution in the iOS simulator, from scratch:
+------------------------------------------------------------
 
 1. Install .NET Core 1.1
   * follow ALL the steps [here] (https://www.microsoft.com/net/core#macos)
@@ -12,6 +13,7 @@ How to run this solution in the iOS simulator, from scratch:
 
 
 What I did to make this solution:
+------------------------------------------------------------
 
 1. Create new solution from the Connected App template in VS for Mac
   * New Project > Multiplatform > App > Connected App
